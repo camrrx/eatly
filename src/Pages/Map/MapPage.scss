@@ -1,0 +1,8 @@
+.map-page-container {
+	display: flex;
+
+	flex-direction: column;
+	&__header {
+		display: flex;
+	}
+}
