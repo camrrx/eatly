@@ -9,7 +9,7 @@ export interface Restaurant {
 }
 
 export interface Filters {
-	price: "" | "$" | "$$" | "$$$";
+	price: number;
 	categories: string[];
 	rating: "" | "3" | "4" | "5"; // ou tu peux aussi utiliser number
 }

@@ -1,0 +1,32 @@
+.choices-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.choice-item {
+	cursor: pointer;
+	border-radius: 12px;
+	text-align: center;
+	transition: transform 0.2s, border 0.2s;
+	height: 100px;
+	margin-block: 10px;
+
+	img {
+		width: 100%;
+		height: 120px;
+		object-fit: cover;
+		display: block;
+	}
+
+	span {
+		display: block;
+		margin-top: 8px;
+		font-weight: 500;
+	}
+
+	&.selected {
+		border-color: orange;
+		transform: scale(1.05);
+	}
+}

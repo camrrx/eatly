@@ -1,4 +1,3 @@
-import * as React from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { CheckIcon, ChevronDownIcon } from "@radix-ui/react-icons";
 import "./CategorySelect.scss";
@@ -8,7 +7,7 @@ const categories = [
 	"Brasserie",
 	"Cuisine traditionnelle",
 	"Restauration rapide",
-	"Restauration gastronomique",
+	"Gastronomique",
 	"Bistrot",
 	"Crêperie",
 	"Fruits de mer",

@@ -1,3 +1,5 @@
+@import "/src/utils/colors.scss";
+
 :root {
 	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
@@ -77,6 +79,6 @@ button:focus-visible {
 }
 
 .icon {
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	margin-block: 20px;
 }
